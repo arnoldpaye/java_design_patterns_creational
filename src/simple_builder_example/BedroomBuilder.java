@@ -4,7 +4,7 @@ import java.awt.Color;
 import java.awt.Dimension;
 
 
-public class BedroomBuilder {
+public class BedroomBuilder implements Builder {
 
   private Dimension dimensions;
   private int ceilingHeight;
@@ -18,31 +18,37 @@ public class BedroomBuilder {
   public BedroomBuilder() {
   }
 
+  @Override
   public BedroomBuilder setDimensions(Dimension dimensions) {
     this.dimensions = dimensions;
     return this;
   }
 
+  @Override
   public BedroomBuilder setCeilingHeight(int ceilingHeight) {
     this.ceilingHeight = ceilingHeight;
     return this;
   }
 
+  @Override
   public BedroomBuilder setFloorNumber(int floorNumber) {
     this.floorNumber = floorNumber;
     return this;
   }
 
+  @Override
   public BedroomBuilder setWallColor(Color wallColor) {
     this.wallColor = wallColor;
     return this;
   }
 
+  @Override
   public BedroomBuilder setNumberOfWindows(int numberOfWindows) {
     this.numberOfWindows = numberOfWindows;
     return this;
   }
 
+  @Override
   public BedroomBuilder setNumberOfDoors(int numberOfDoors) {
     this.numberOfDoors = numberOfDoors;
     return this;
