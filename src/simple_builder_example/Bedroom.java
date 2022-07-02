@@ -18,7 +18,7 @@ public class Bedroom {
   private boolean isDouble;
   private boolean hasEnsuite;
   
-  public Bedroom(Dimension dimensions, int ceilingHeight, int floorNumber, Color wallColor, int numberOfWindows, int numberOfDoors, boolean isDouble, boolean, hasEnsuite) {
+  public Bedroom(Dimension dimensions, int ceilingHeight, int floorNumber, Color wallColor, int numberOfWindows, int numberOfDoors, boolean isDouble, boolean hasEnsuite) {
     this.dimensions = dimensions;
     this.ceilingHeight = ceilingHeight;
     this.floorNumber = floorNumber;
