@@ -17,7 +17,14 @@ public class Architect {
     
     // House house = new House(rooms);
     
-    ArrayList<Room> rooms = new RoomListBuilder().addList().addRoom(room1).addRoom(room2).buildList();
+    // ArrayList<Room> rooms = new RoomListBuilder().addList().addRoom(room1).addRoom(room2).buildList();
+    
+    // House house = new House(rooms);
+    
+    ArrayList<Room> rooms = new RoomListBuilder().addList()
+            .addRoom().setFloorNumber(2).addRoomToList()
+            .addRoom().setFloorNumber(1).addRoomToList()
+            .buildList();
     
     House house = new House(rooms);
   }
