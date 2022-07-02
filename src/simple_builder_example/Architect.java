@@ -8,8 +8,8 @@ import java.util.ArrayList;
  */
 public class Architect {
   public static void main(String[] args) {
-    Room room1 = new RoomBuilder().setFloorNumber(2).createRoom();
-    Room room2 = new RoomBuilder().setFloorNumber(1).createRoom();
+    // Room room1 = new RoomBuilder().setFloorNumber(2).createRoom();
+    // Room room2 = new RoomBuilder().setFloorNumber(1).createRoom();
     
     // ArrayList<Room> rooms = new ArrayList<>();
     // rooms.add(room1);
