@@ -1,7 +1,6 @@
 package simple_builder_example;
 
-import java.awt.Color;
-import java.awt.Dimension;
+import java.util.ArrayList;
 
 /**
  *
@@ -9,7 +8,17 @@ import java.awt.Dimension;
  */
 public class Architect {
   public static void main(String[] args) {
-    Bedroom room = new BedroomBuilder().setDimensions(new Dimension(200, 100)).setCeilingHeight(132).setFloorNumber(2).setWallColor(Color.yellow).setNumberOfWindows(2).setNumberOfDoors(1).setIsDouble(true).setHasEnsuite(true).createBedroom();
-    Bedroom room2 = new BedroomBuilder().setDimensions(new Dimension(300, 250)).createBedroom();
+    Room room1 = new RoomBuilder().setFloorNumber(2).createRoom();
+    Room room2 = new RoomBuilder().setFloorNumber(1).createRoom();
+    
+    // ArrayList<Room> rooms = new ArrayList<>();
+    // rooms.add(room1);
+    // rooms.add(room2);
+    
+    // House house = new House(rooms);
+    
+    ArrayList<Room> rooms = new RoomListBuilder().addList().addRoom(room1).addRoom(room2).buildList();
+    
+    House house = new House(rooms);
   }
 }
