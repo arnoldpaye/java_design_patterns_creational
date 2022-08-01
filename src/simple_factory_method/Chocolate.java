@@ -7,7 +7,6 @@ import java.util.ArrayList;
  * @author arnoldpaye
  */
 public class Chocolate extends Candy {
-
   @Override
   ArrayList<Candy> makeCandyPackage(int quantity) {
     ArrayList chocolatePackage = new ArrayList<>();
