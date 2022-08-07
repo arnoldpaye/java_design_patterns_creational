@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author bethan
+ * @author arnoldpaye
  */
 public class Chocolate_white extends Candy {
 
@@ -19,7 +19,5 @@ public class Chocolate_white extends Candy {
 
         System.out.println("One package of " + quantity + " white chocolates has been made!");
         return chocolatePackage;
-
     }
-
 }

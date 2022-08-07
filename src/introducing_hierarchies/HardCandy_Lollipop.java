@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author bethan
+ * @author arnoldpaye
  */
 public class HardCandy_Lollipop extends Candy {
 
@@ -18,7 +18,5 @@ public class HardCandy_Lollipop extends Candy {
 
         System.out.println("One package of " + quantity + " hard candy has been made!");
         return hardCandyPackage;
-
     }
-
 }

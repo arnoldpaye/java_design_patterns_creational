@@ -2,7 +2,7 @@ package introducing_hierarchies;
 
 /**
  *
- * @author bethan
+ * @author arnoldpaye
  */
 public class CandyStore {
     
@@ -14,6 +14,4 @@ public class CandyStore {
         candyFactory.getCandyPackage(14, "lollipop", "hard candy");
         candyFactory.getCandyPackage(20, "peppermint", "hard candy");
     }
-
-
 }

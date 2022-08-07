@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author bethan
+ * @author arnoldpaye
  */
 public class HardCandy_Peppermint extends Candy {
     
@@ -18,7 +18,6 @@ public class HardCandy_Peppermint extends Candy {
         }
         
         System.out.println("One package of " + quantity + " peppermints has been made!");
-        return hardCandyPackage;
-        
-    }    
+        return hardCandyPackage;   
+    }
 }

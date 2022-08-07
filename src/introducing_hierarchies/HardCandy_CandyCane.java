@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author bethan
+ * @author arnoldpaye
  */
 public class HardCandy_CandyCane extends Candy {
 
@@ -18,7 +18,5 @@ public class HardCandy_CandyCane extends Candy {
 
         System.out.println(quantity + " packages of 10 candy canes has been made!");
         return hardCandyPackage;
-
     }
-
 }

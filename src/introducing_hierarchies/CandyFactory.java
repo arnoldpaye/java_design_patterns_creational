@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author bethan
+ * @author arnoldpaye
  */
 public class CandyFactory {
 
@@ -39,5 +39,4 @@ public class CandyFactory {
         ArrayList candyPackage = candy.makeCandyPackage(quantity);
         return candyPackage;
     }
-
 }
