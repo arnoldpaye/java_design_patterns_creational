@@ -11,7 +11,7 @@ public class BikeBuilder {
         
         createBikeWithoutAbstractFactory();              
         
-        createBikeWithAbstractFactory("mountain bike");
+        createBikeWithAbstractFactory("road bike");
         
     }
     
