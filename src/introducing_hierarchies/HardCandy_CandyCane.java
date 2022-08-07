@@ -16,7 +16,7 @@ public class HardCandy_CandyCane extends Candy {
             hardCandyPackage.add(candyCane);
         }
 
-        System.out.println(quantity + " packages of 10 candy canes has been made!");
+        System.out.println(quantity / 10 + " packages of 10 candy canes has been made!");
         return hardCandyPackage;
     }
 }
